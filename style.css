@@ -1,0 +1,85 @@
+body{
+    width: 1228px;
+    height: 1200px;
+    background-color:#000000;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    margin-top: 0px;
+    
+}
+.header{
+    display: flex;
+}
+.header >.left{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 0px;
+    line-height: 29px;
+    text-align: left;
+}
+ .header>.right{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 300;
+    padding-left :1200px;
+    padding-top: 0px;
+    line-height: 29px;
+    text-align: right;
+} 
+.header>.right2{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 300;
+    padding-left :40px;
+    padding-right: 0px;
+    line-height: 29px;
+    text-align: right;
+} 
+.header{
+    width: 1450px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.form{
+    padding-left: 260px;
+    padding-bottom: 10px;
+}
+.form>.heading{
+    
+    padding-top: 144px;
+    font-style: 'Regular';
+    font-size: 50px;
+    Line-height: 77px;
+    Vertical-align: Top;
+}
+.elements >div{
+    padding-top: 10px;
+    font-style: 'Regular';
+    font-size: 25px;
+    Vertical-align: Top;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+input[type="text"], input[type="password"], textarea {
+    border: none;
+    outline: none;
+    border-bottom: 0px;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #000000;/* You can adjust the color and thickness of the outline */
+  }
+  button{
+    width: 226px;
+    height: 58px;
+    background-color: #FFFFFF;
+    font-size: 24px;
+  }
+#fail{
+color: red;
+}
+
+#pass{
+color: green;
+}
+  
